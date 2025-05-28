@@ -7,6 +7,8 @@
 
     <!--LINK TO STYLESHEET-->
     <link rel="stylesheet" href="style.css">
+
+
 </head>
 <body class="fullscreen">
     <section class="flex-row">
@@ -28,7 +30,7 @@
                             </div>
                             <p>Reminders</p>
                         </div>
-                        <p>3</p>
+                        <p class="counter">0</p>
                     </div>
                 </div>
             </div>
@@ -43,17 +45,17 @@
         </section>
 
         <!-- MAIN -->
-        <section class="flex-column main margin-sides-md gap-sm">
+        <section id="container" class="flex-column main margin-sides-md gap-sm">
 
             <!-- HEADING -->
             <div class="flex-row space-between margin-top-xl accent1-text">
                 <h1>Reminders</h1>
-                <h1>3</h1>
+                <h1 class="counter">0</h1>
             </div>
 
             <section class="flex-column">
                 <!-- INFO -->
-                <div class="flex-row space-between list-item padding-tb-xs">
+                <div id="details" class="flex-row space-between list-item padding-tb-xs hidden">
                     <p>
                         <span class="grey3-text">0 Completed · </span>
                         <span class="accent2-text">Clear</span>
@@ -62,17 +64,47 @@
                 </div>
 
                 <!-- TODO LIST -->
-                <div class="flex-row gap-sm">
+                <div class="flex-row gap-sm hidden container-task">
                     <div class="check-out align-centre-vertical">
                     </div>
                     <h4 class="list-item padding-tb-xxs">Interactive Media Assignment</h4>
                 </div>
-                <div class="flex-row gap-sm">
-                    <div class="check-out align-centre-vertical">
+                <div class="flex-row gap-sm hidden container-task">
+                    <div class="check-out align-centre-vertical ">
                     </div>
                     <h4 class="list-item padding-tb-xxs">Branding Brief 2B</h4>
                 </div>
-                <div class="flex-column">
+                <div class="flex-row gap-sm hidden container-task">
+                    <div class="check-out align-centre-vertical ">
+                    </div>
+                    <h4 class="list-item padding-tb-xxs">Buy Milk</h4>
+                </div>
+                <div class="flex-row gap-sm hidden container-task">
+                    <div class="check-out align-centre-vertical ">
+                    </div>
+                    <h4 class="list-item padding-tb-xxs">Pay Rent</h4>
+                </div>
+                <div class="flex-row gap-sm hidden container-task">
+                    <div class="check-out align-centre-vertical ">
+                    </div>
+                    <h4 class="list-item padding-tb-xxs">Marketing Exam Prep</h4>
+                </div>
+                <div class="flex-row gap-sm hidden container-task">
+                    <div class="check-out align-centre-vertical ">
+                    </div>
+                    <h4 class="list-item padding-tb-xxs">Finish Application</h4>
+                </div>
+                <div class="flex-row gap-sm hidden container-task">
+                    <div class="check-out align-centre-vertical ">
+                    </div>
+                    <h4 class="list-item padding-tb-xxs">Vacuum Room</h4>
+                </div>
+                <div class="flex-row gap-sm hidden container-task">
+                    <div class="check-out align-centre-vertical ">
+                    </div>
+                    <h4 class="list-item padding-tb-xxs">Submit Form</h4>
+                </div>
+                <div class="flex-column hidden container-task">
                     <div class="flex-row gap-sm margin-top-xxs">
                         <div class="check-out align-centre-vertical">
                         </div>
@@ -101,4 +133,6 @@
         </section>
     </section>
 </body>
+<!--LINK TO JS-->
+<script src="script.js" ></script>
 </html>
