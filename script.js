@@ -31,7 +31,7 @@ function showTasks() {
 
     //when clicks hit threshold go to crazy
     if (clicks == threshold) {
-        console.log("match");
+        window.location.href = "crazy.html";
     }
 }
 
