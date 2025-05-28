@@ -1,0 +1,117 @@
+:root {
+    /*SPACING*/
+   --spacing-base-size: 1em;
+   --spacing-scale-ratio: 1.5;
+
+   --spacing-xs: calc((var(--spacing-base-size)/var(--spacing-scale-ratio)));
+   --spacing-sm: var(--spacing-base-size);
+   --spacing-md: calc(var(--spacing-base-size) * var(--spacing-scale-ratio));
+   --spacing-lg: calc(var(--spacing-base-size)* var(--spacing-scale-ratio) * var(--spacing-scale-ratio));
+   --spacing-xl: calc(var(--spacing-base-size) * var(--spacing-scale-ratio) * var(--spacing-scale-ratio) * var(--spacing-scale-ratio));
+   --spacing-xxl: calc(var(--spacing-base-size) * var(--spacing-scale-ratio) * var(--spacing-scale-ratio) * var(--spacing-scale-ratio) * var(--spacing-scale-ratio));
+   --spacing-xxxl: calc(var(--spacing-base-size) * var(--spacing-scale-ratio) * var(--spacing-scale-ratio) * var(--spacing-scale-ratio) * var(--spacing-scale-ratio) * var(--spacing-scale-ratio));
+   --spacing-xxxxl: calc(var(--spacing-base-size) * var(--spacing-scale-ratio) * var(--spacing-scale-ratio) * var(--spacing-scale-ratio) * var(--spacing-scale-ratio) * var(--spacing-scale-ratio) * var(--spacing-scale-ratio));
+   --spacing-xxxxxl: calc(var(--spacing-base-size) * var(--spacing-scale-ratio) * var(--spacing-scale-ratio) * var(--spacing-scale-ratio) * var(--spacing-scale-ratio) * var(--spacing-scale-ratio) * var(--spacing-scale-ratio) * var(--spacing-scale-ratio));
+   --spacing-xxxxxxl: calc(var(--spacing-base-size) * var(--spacing-scale-ratio) * var(--spacing-scale-ratio) * var(--spacing-scale-ratio) * var(--spacing-scale-ratio) * var(--spacing-scale-ratio) * var(--spacing-scale-ratio) * var(--spacing-scale-ratio) * var(--spacing-scale-ratio));
+
+   /*COLOURS*/
+   --colour-callout: #F8F8F7;
+   --colour-bg: #212121;
+   --colour-text: #FFFFFF;
+}
+
+
+/* FONT */
+@font-face {
+    font-family: 'Formom';
+    font-style: normal;
+    font-weight: 200;
+    src: url('/fonts/SF-Pro-Rounded-Ultralight.otf');
+}
+
+@font-face {
+    font-family: 'Formom';
+    font-style: normal;
+    font-weight: 200;
+    src: url('/fonts/SF-Pro-Rounded-Thin.otf');
+}
+
+@font-face {
+    font-family: 'Formom';
+    font-style: normal;
+    font-weight: 300;
+    src: url('/fonts/SF-Pro-Rounded-Light.otf');
+}
+
+@font-face {
+    font-family: 'Formom';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/fonts/SF-Pro-Rounded-Regular.otf');
+}
+
+@font-face {
+    font-family: 'Formom';
+    font-style: normal;
+    font-weight: 500;
+    src: url('/fonts/SF-Pro-Rounded-Medium.otf');
+}
+
+@font-face {
+    font-family: 'Formom';
+    font-style: normal;
+    font-weight: 600;
+    src: url('/fonts/SF-Pro-Rounded-Semibold.otf');
+}
+
+
+/*SET UP*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+/*LAYOUT*/
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/*Flex Spacing*/
+.space-between {
+    justify-content: space-between;
+}
+
+
+
+/* ALIGNMENT */
+.align-centre {
+    margin: 0 auto 0 auto;
+}
+
+.align-centre-vertical {
+    margin: auto 0 auto 0;
+}
+
+.justify-centre {
+    justify-content: center;
+}
+
+.align-left {
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.align-top {
+    margin-top: 0;
+    margin-bottom: auto;
+}
