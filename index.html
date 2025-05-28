@@ -4,8 +4,101 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todo List</title>
+
+    <!--LINK TO STYLESHEET-->
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    
+<body class="fullscreen">
+    <section class="flex-row">
+        <!-- SIDE BAR -->
+        <section class="fullscreen flex-column space-between side-bar padding-sides-md secondary-text">
+            <div class="flex-column gap-md">
+                <!-- SEARCH BAR -->
+                <div class="search modal margin-top-xl ">
+                    <p>Search</p>
+                </div>
+
+                <!-- LIST -->
+                <div class="flex-column gap-none">
+                    <p class="caption caption-text margin-sides-sm">My Lists</p>
+                    <div class="flex-row space-between modal secondary3-bg padding-tb-xxs">
+                        <div class="flex-row gap-xs">
+                            <div class="icon-container flex-column align-centre-vertical" style="align-items: center;">
+                                <img src="images/list.png" class="icon-side align-centre-vertical">
+                            </div>
+                            <p>Reminders</p>
+                        </div>
+                        <p>3</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ADD BUTTON -->
+            <div class="flex-row margin-bottom-md gap-xs">
+                <div class="icon-stroke align-centre-vertical">
+                    <img src="/images/add.svg" class="icon-add  margin-bottom-xxs">
+                </div>
+                <p>Add List</p>
+            </div>
+        </section>
+
+        <!-- MAIN -->
+        <section class="flex-column main margin-sides-md gap-sm">
+
+            <!-- HEADING -->
+            <div class="flex-row space-between margin-top-xl accent1-text">
+                <h1>Reminders</h1>
+                <h1>3</h1>
+            </div>
+
+            <section class="flex-column">
+                <!-- INFO -->
+                <div class="flex-row space-between list-item padding-tb-xs">
+                    <p>
+                        <span class="grey3-text">0 Completed · </span>
+                        <span class="accent2-text">Clear</span>
+                    </p>
+                    <p class="accent1-text">Show</p>
+                </div>
+
+                <!-- TODO LIST -->
+                <div class="flex-row gap-sm">
+                    <div class="check-out align-centre-vertical">
+                    </div>
+                    <h4 class="list-item padding-tb-xxs">Interactive Media Assignment</h4>
+                </div>
+                <div class="flex-row gap-sm">
+                    <div class="check-out align-centre-vertical">
+                    </div>
+                    <h4 class="list-item padding-tb-xxs">Branding Brief 2B</h4>
+                </div>
+                <div class="flex-column">
+                    <div class="flex-row gap-sm margin-top-xxs">
+                        <div class="check-out align-centre-vertical">
+                        </div>
+                        <div class="flex-column">
+                            <h4>Laundry</h4>
+                        </div>
+                    </div>
+                    <div class="margin-left-lg list-item">
+                        <p class="grey2-text">Notes</p>
+
+                        <!-- EXTRA DETAILS -->
+                        <div class="flex-row gap-sm margin-bottom-xxs">
+                            <div class="flex-row grey1-bg modal gap-xxs">
+                                <img src="/images/calander.png" class="icon-lg align-centre-vertical">
+                                <p>Add Date</p>
+                            </div>
+                            <div class="flex-row grey1-bg modal gap-xxs">
+                                <img src="/images/location.svg" class="icon-lg align-centre-vertical">
+                                <p>Add Location</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        
+        </section>
+    </section>
 </body>
 </html>
