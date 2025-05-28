@@ -484,3 +484,11 @@ h1 {
 
 
 
+/* VISIBILTY */
+.hidden {
+    visibility: hidden;
+}
+
+
+
+
