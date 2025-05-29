@@ -60,13 +60,13 @@ function draw() {
   let volume=mic.getLevel();
   
   let mappedVol = map(volume, 0, 1, 0, 100);
-
+  console.log(mappedVol);
   count += mappedVol;
 
   
   if (count > 0.4) {
     changeFunction();
-  } else if (count < 0.02 && allowQuietCheck) {
+  } else if (count < 0.2 && allowQuietCheck) {
      quietSetting();
   }
 }
