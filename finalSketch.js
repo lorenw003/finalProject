@@ -64,9 +64,9 @@ function draw() {
   count += mappedVol;
 
   
-  if (count > 4.5) {
+  if (count > 0.4) {
     changeFunction();
-  } else if (count < 1 && allowQuietCheck) {
+  } else if (count < 0.1 && allowQuietCheck) {
      quietSetting();
   } 
 }
