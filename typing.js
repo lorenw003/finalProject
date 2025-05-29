@@ -5,7 +5,7 @@ class TypingMessage {
     this.lastTypedTime = 0;
     this.typingFinished = false;
     this.timeFinished = 0;
-    this.nextMessageDelay = 10; // in milliseconds
+    this.nextMessageDelay = 1; // in milliseconds
 
     this.pickNewMessage();
   }
