@@ -429,6 +429,12 @@ h1 {
     object-fit: scale-down;
 }
 
+.icon-sm {
+    width: 15px;
+    height: 15px;
+    object-fit: scale-down;
+}
+
 .icon-lg {
     width: 20px;
     height: 20px;
