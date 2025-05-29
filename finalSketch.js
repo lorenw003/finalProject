@@ -68,7 +68,7 @@ function draw() {
     changeFunction();
   } else if (count < 0.2 && allowQuietCheck) {
      quietSetting();
-  }
+  } 
 }
 
 
