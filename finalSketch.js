@@ -43,8 +43,8 @@ function setup() {
   
   //Different Functions
   bezierLine = new BezierLine();
-  explodingText = new ExplodingText(["Reminders", "0 Completed", "Reminders", "Branding Brief 2B", "Reminders", "Finish Application", "Submit Form", "Buy Milk", "Vacuum Room", "Marketing Exam Prep", "Interactive Media Assignment", "Laundry", "Pay Rent", "Sleep", "Search", "Add List", "3 Tasks", "Due Tomorrow", "Deadline", "Due Now", "DUE", "LATE", "TOO MUCH"]);
-  typed = new TypingMessage(["Reminders", "0 Completed", "Reminders", "Branding Brief 2B", "Reminders", "Finish Application", "Submit Form", "Buy Milk", "Vacuum Room", "Marketing Exam Prep", "Interactive Media Assignment", "Laundry", "Pay Rent", "Sleep", "Search", "Add List", "3 Tasks", "Due Tomorrow", "Deadline", "Due Now", "DUE", "LATE", "TOO MUCH"]);
+  explodingText = new ExplodingText(["Reminders", "0 Completed", "Click...Wait nooo", "Click...Wait nooo", "Click...Wait nooo", "Reminders", "Branding Brief 2B", "Reminders", "Finish Application", "Submit Form", "Buy Milk", "Vacuum Room", "Marketing Exam Prep", "Interactive Media Assignment", "Laundry", "Pay Rent", "Sleep", "Search", "Add List", "3 Tasks", "Due Tomorrow", "Deadline", "Due Now", "DUE", "LATE", "TOO MUCH"]);
+  typed = new TypingMessage(["Reminders", "0 Completed", "Click...Wait nooo", "Click...Wait nooo", "Click...Wait nooo", "Reminders", "Branding Brief 2B", "Reminders", "Finish Application", "Submit Form", "Buy Milk", "Vacuum Room", "Marketing Exam Prep", "Interactive Media Assignment", "Laundry", "Pay Rent", "Sleep", "Search", "Add List", "3 Tasks", "Due Tomorrow", "Deadline", "Due Now", "DUE", "LATE", "TOO MUCH"]);
   flashedMessage = new TypingText(width / 3.5, height / 2);
   
   setTimeout(() => {
