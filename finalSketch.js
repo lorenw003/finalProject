@@ -131,6 +131,7 @@ function exploding () {
 
 
 //TYPING TEXT
+//This code was taken and adapted from https://editor.p5js.org/JaceyLynn/sketches/iV4C6kUO2
 function typing() {
   textAlign(LEFT, BASELINE);
   typed.display();
@@ -145,6 +146,7 @@ function flashing() {
 
 
 //FLASHING TYPE 
+//This code was taken and modified from https://editor.p5js.org/xc2736/sketches/1igkPpfX5
 function flashingMessage() {
   background(33);
   textAlign(LEFT, CENTER);

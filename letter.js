@@ -1,3 +1,5 @@
+//This code is taken from https://editor.p5js.org/pattvira/sketches/Rs498E8W3
+
 class Letter {
   constructor(x, y) {
     this.alphabets = ["Task 1", "Reminders", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "X"];

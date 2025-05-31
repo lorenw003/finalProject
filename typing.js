@@ -1,3 +1,5 @@
+//This code was taken and adapted from https://editor.p5js.org/JaceyLynn/sketches/iV4C6kUO2
+
 class TypingMessage {
   constructor(messages) {
     this.messages = messages;
